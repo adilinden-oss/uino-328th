@@ -1586,42 +1586,6 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </library>
 <library name="adi-misc">
 <packages>
-<package name="ZX62D-AB-5P8">
-<description>USB - micro AB, Hirose</description>
-<wire x1="-4" y1="3" x2="-2.9" y2="3" width="0.2032" layer="21"/>
-<wire x1="2.9" y1="3" x2="4" y2="3" width="0.2032" layer="21"/>
-<wire x1="4" y1="3" x2="4" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="4" y1="-1.45" x2="4" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="4" y1="-1.6" x2="4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="4" y1="-2.75" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-2.75" x2="-4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-1.6" x2="-4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-4" y1="1.45" x2="-4" y2="3" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-1.4" x2="-4" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-1.4" x2="4" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-2.75" x2="-4.5" y2="-3.25" width="0.2032" layer="51"/>
-<wire x1="4" y1="-2.75" x2="4.5" y2="-3.25" width="0.2032" layer="51"/>
-<wire x1="4" y1="-1.6" x2="-4" y2="-1.6" width="0.2032" layer="21"/>
-<circle x="-2.225" y="2.9" radius="0.8062" width="0" layer="16"/>
-<circle x="2.225" y="2.9" radius="0.8062" width="0" layer="16"/>
-<circle x="-2.225" y="2.9" radius="1.1045" width="0" layer="30"/>
-<circle x="2.225" y="2.9" radius="1.1045" width="0" layer="30"/>
-<pad name="S1" x="-4.175" y="0" drill="1.5"/>
-<pad name="S2" x="4.175" y="0" drill="1.5"/>
-<smd name="3" x="0" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="2" x="-0.65" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="1" x="-1.3" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<text x="-4.685" y="1.425" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="5.2" y="1.4" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.75" y1="-0.75" x2="-0.25" y2="0.75" layer="29"/>
-<rectangle x1="0.25" y1="-0.75" x2="1.75" y2="0.75" layer="29"/>
-<rectangle x1="-1.5" y1="-0.5" x2="-0.5" y2="0.5" layer="31"/>
-<rectangle x1="0.5" y1="-0.5" x2="1.5" y2="0.5" layer="31"/>
-<hole x="-2.225" y="2.9" drill="0.85"/>
-<hole x="2.225" y="2.9" drill="0.85"/>
-</package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt; - 0805</description>
 <wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
@@ -1802,25 +1766,44 @@ Mfr no: 1776244-2 &lt;br&gt;
 <pad name="2" x="-2.5" y="-0.45" drill="1.4" diameter="2.38" shape="long" rot="R90"/>
 <text x="-5" y="4" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 </package>
+<package name="ZX62D-AB-5P8">
+<description>USB - micro AB, Hirose</description>
+<wire x1="-4" y1="3" x2="-2.9" y2="3" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="3" x2="4" y2="3" width="0.2032" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="4" y1="-1.45" x2="4" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="4" y1="-1.6" x2="4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="4" y1="-2.75" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-2.75" x2="-4" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-1.6" x2="-4" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-4" y1="1.45" x2="-4" y2="3" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-1.4" x2="-4" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-1.4" x2="4" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-2.75" x2="-4.5" y2="-3.25" width="0.2032" layer="51"/>
+<wire x1="4" y1="-2.75" x2="4.5" y2="-3.25" width="0.2032" layer="51"/>
+<wire x1="4" y1="-1.6" x2="-4" y2="-1.6" width="0.2032" layer="21"/>
+<circle x="-2.225" y="2.9" radius="0.8062" width="0" layer="16"/>
+<circle x="2.225" y="2.9" radius="0.8062" width="0" layer="16"/>
+<circle x="-2.225" y="2.9" radius="1.1045" width="0" layer="30"/>
+<circle x="2.225" y="2.9" radius="1.1045" width="0" layer="30"/>
+<pad name="S1" x="-4.175" y="0" drill="1.5"/>
+<pad name="S2" x="4.175" y="0" drill="1.5"/>
+<smd name="3" x="0" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<text x="-4.685" y="1.425" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="5.2" y="1.4" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-0.75" x2="-0.25" y2="0.75" layer="29"/>
+<rectangle x1="0.25" y1="-0.75" x2="1.75" y2="0.75" layer="29"/>
+<rectangle x1="-1.5" y1="-0.5" x2="-0.5" y2="0.5" layer="31"/>
+<rectangle x1="0.5" y1="-0.5" x2="1.5" y2="0.5" layer="31"/>
+<hole x="-2.225" y="2.9" drill="0.85"/>
+<hole x="2.225" y="2.9" drill="0.85"/>
+</package>
 </packages>
 <symbols>
-<symbol name="USB-5P-2S">
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
-<text x="7.62" y="-3.175" size="2.54" layer="94" ratio="10" rot="R90">USB</text>
-<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="D+" x="-7.62" y="0" length="short" direction="pas"/>
-<pin name="D-" x="-7.62" y="2.54" length="short" direction="pas"/>
-<pin name="VBUS" x="-7.62" y="5.08" length="short" direction="pas"/>
-<pin name="ID" x="-7.62" y="-2.54" length="short" direction="pas"/>
-<pin name="S1" x="-2.54" y="-10.16" visible="off" length="point" direction="pas" rot="R90"/>
-<pin name="S2" x="-2.54" y="-10.16" visible="off" length="point" direction="pas" rot="R90"/>
-<pin name="GND" x="-7.62" y="-5.08" length="short" direction="pas"/>
-</symbol>
 <symbol name="FUSE">
 <wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-126.869898"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="180"/>
@@ -1889,32 +1872,23 @@ Mfr no: 1776244-2 &lt;br&gt;
 <pin name="1" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
+<symbol name="USB-5P-2S">
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="7.62" y="-3.175" size="2.54" layer="94" ratio="10" rot="R90">USB</text>
+<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="D+" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="D-" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="VBUS" x="-7.62" y="5.08" length="short" direction="pas"/>
+<pin name="ID" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="S1" x="0" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S2" x="-2.54" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND" x="-7.62" y="-5.08" length="short" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB_MICRO_B_2.0-TH" prefix="J">
-<description>USB Micro AB OTG Receptacle&lt;p&gt;
-Hirose ZX62D-AB-5P8&lt;br&gt;
-Amphenol FCI 10118194-0001LF</description>
-<gates>
-<gate name="G$1" symbol="USB-5P-2S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ZX62D-AB-5P8">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FUSE_PTC" prefix="F" uservalue="yes">
 <description>PTC fuses, resettable thermistors</description>
 <gates>
@@ -2021,6 +1995,30 @@ Amphenol FCI 10118194-0001LF</description>
 <connects>
 <connect gate="CON" pin="1" pad="1"/>
 <connect gate="CON" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB_MICRO_B_2.0-TH" prefix="J">
+<description>USB Micro AB OTG Receptacle&lt;p&gt;
+Hirose ZX62D-AB-5P8&lt;br&gt;
+Amphenol FCI 10118194-0001LF</description>
+<gates>
+<gate name="G$1" symbol="USB-5P-2S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ZX62D-AB-5P8">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13412,7 +13410,6 @@ Vishay BC Components</description>
 <part name="JP3" library="adi-misc" deviceset="M03X2" device="" value=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device=""/>
 <part name="U3" library="adi-atmega" deviceset="ATMEGA328P" device="-P"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -13471,6 +13468,7 @@ Vishay BC Components</description>
 <part name="D2" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
 <part name="S1" library="adi-misc" deviceset="TL1100X" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="J2" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13491,7 +13489,6 @@ by Adi Linden</text>
 </instance>
 <instance part="GND17" gate="1" x="187.96" y="127"/>
 <instance part="GND18" gate="1" x="187.96" y="48.26"/>
-<instance part="J2" gate="G$1" x="-27.94" y="81.28" rot="MR0"/>
 <instance part="U3" gate="G$1" x="124.46" y="99.06"/>
 <instance part="GND16" gate="1" x="187.96" y="154.94"/>
 <instance part="SUPPLY11" gate="G$1" x="187.96" y="170.18"/>
@@ -13550,6 +13547,7 @@ by Adi Linden</text>
 <instance part="D2" gate="G$1" x="-10.16" y="167.64"/>
 <instance part="S1" gate="G$1" x="50.8" y="111.76" rot="R90"/>
 <instance part="GND10" gate="1" x="50.8" y="101.6"/>
+<instance part="J2" gate="G$1" x="-27.94" y="81.28" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -13653,15 +13651,17 @@ by Adi Linden</text>
 <wire x1="0" y1="66.04" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-2.54" y="66.04"/>
 <pinref part="J2" gate="G$1" pin="S1"/>
-<wire x1="-25.4" y1="71.12" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="66.04" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="-15.24" y1="66.04" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="76.2" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="76.2" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-15.24" y="66.04"/>
+<wire x1="-27.94" y1="71.12" x2="-27.94" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="S2"/>
-<junction x="-25.4" y="71.12"/>
+<wire x1="-25.4" y1="66.04" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="66.04" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="71.12" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-25.4" y="66.04"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="-20.32" y1="76.2" x2="-17.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="76.2" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-17.78" y="66.04"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
@@ -14018,26 +14018,6 @@ by Adi Linden</text>
 <label x="167.64" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="D-"/>
-<pinref part="U2" gate="G$1" pin="RA1(D-)"/>
-<wire x1="-20.32" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="D+"/>
-<pinref part="U2" gate="G$1" pin="RA0(D+)"/>
-<wire x1="-20.32" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="ID"/>
-<wire x1="-20.32" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="CLKIN" class="0">
 <segment>
 <label x="81.28" y="114.3" size="1.778" layer="95"/>
@@ -14287,14 +14267,14 @@ by Adi Linden</text>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="VBUS"/>
-<wire x1="-20.32" y1="86.36" x2="-7.62" y2="86.36" width="0.1524" layer="91"/>
-<label x="-7.62" y="86.36" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="167.64" x2="-33.02" y2="167.64" width="0.1524" layer="91"/>
 <label x="-33.02" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="VBUS"/>
+<wire x1="-20.32" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
+<label x="-10.16" y="86.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -14302,6 +14282,20 @@ by Adi Linden</text>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="-15.24" y1="167.64" x2="-12.7" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="D-"/>
+<pinref part="U2" gate="G$1" pin="RA1(D-)"/>
+<wire x1="-20.32" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="D+"/>
+<pinref part="U2" gate="G$1" pin="RA0(D+)"/>
+<wire x1="-20.32" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
