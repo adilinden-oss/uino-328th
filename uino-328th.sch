@@ -56,7 +56,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -13422,7 +13422,7 @@ Vishay BC Components</description>
 <part name="U2" library="adi-pic" deviceset="PIC16F1454" device="-P"/>
 <part name="C8" library="rc-master-th" deviceset="C_" device="C025-040X018" value="100n"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="rc-master" deviceset="R_" device="X0207/10" value="1k"/>
+<part name="R8" library="rc-master" deviceset="R_" device="X0207/10" value="470"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rc-master-th" deviceset="C_" device="C025-040X018" value="100n"/>
@@ -13432,18 +13432,18 @@ Vishay BC Components</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="jumpers" deviceset="SJ-" device="035"/>
 <part name="JP1" library="jumpers" deviceset="SJ-" device="035"/>
-<part name="C7" library="rc-master-th" deviceset="C_" device="C025-040X018"/>
+<part name="C7" library="rc-master-th" deviceset="C_" device="C025-040X018" value="100n"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="D6" library="SparkFun-LED" deviceset="LED" device="3MM" value="Red"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="3MM" value="Yellow"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM" value="Yellow"/>
-<part name="R5" library="rc-master" deviceset="R_" device="X0207/7" value="1k"/>
-<part name="R7" library="rc-master" deviceset="R_" device="X0207/7" value="1k"/>
+<part name="R5" library="rc-master" deviceset="R_" device="X0207/7" value="470"/>
+<part name="R7" library="rc-master" deviceset="R_" device="X0207/7" value="470"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="U1" library="adi-misc" deviceset="V_REG_MCP170X" device=""/>
+<part name="U1" library="adi-misc" deviceset="V_REG_MCP170X" device="" value="MCP1702-33"/>
 <part name="J1" library="adi-misc" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
 <part name="F2" library="adi-misc" deviceset="FUSE_PTC" device="-TH" value="500mA"/>
@@ -13462,13 +13462,13 @@ Vishay BC Components</description>
 <part name="Q1" library="murata-resonators" deviceset="CSTLS_X" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM" value="Green"/>
-<part name="R2" library="rc-master" deviceset="R_" device="X0207/7" value="1k"/>
+<part name="R2" library="rc-master" deviceset="R_" device="X0207/7" value="470"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
 <part name="S1" library="adi-misc" deviceset="TL1100X" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device=""/>
+<part name="J2" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device="" value="Micro USB"/>
 </parts>
 <sheets>
 <sheet>
@@ -13522,7 +13522,10 @@ by Adi Linden</text>
 <instance part="R7" gate="G$1" x="93.98" y="149.86" rot="R90"/>
 <instance part="SUPPLY9" gate="G$1" x="93.98" y="170.18"/>
 <instance part="SUPPLY7" gate="G$1" x="76.2" y="170.18"/>
-<instance part="U1" gate="G$1" x="7.62" y="157.48"/>
+<instance part="U1" gate="G$1" x="7.62" y="157.48" smashed="yes">
+<attribute name="NAME" x="10.16" y="149.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-0.762" y="161.29" size="1.778" layer="96"/>
+</instance>
 <instance part="J1" gate="CON" x="-30.48" y="154.94" rot="R180"/>
 <instance part="D1" gate="G$1" x="-12.7" y="149.86" rot="R90"/>
 <instance part="F2" gate="G$1" x="-20.32" y="154.94"/>
@@ -13547,7 +13550,10 @@ by Adi Linden</text>
 <instance part="D2" gate="G$1" x="-10.16" y="167.64"/>
 <instance part="S1" gate="G$1" x="50.8" y="111.76" rot="R90"/>
 <instance part="GND10" gate="1" x="50.8" y="101.6"/>
-<instance part="J2" gate="G$1" x="-27.94" y="81.28" rot="MR0"/>
+<instance part="J2" gate="G$1" x="-27.94" y="81.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-22.86" y="95.25" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-22.86" y="91.44" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
