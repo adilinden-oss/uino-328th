@@ -1,4 +1,4 @@
-##\*uino-328th
+## \*uino-328th
 
 The \*uino-328th was designed for my son Mathew. As a mostly though-hole design, it should be easy to assemble even for a beginner.  The only surface mount component is the micro USB connector. Personally I much prefer micro USB over the full sized or mini connector. Unfortunately I was unable to find a through-hole micro USB.  Having the one surface mounted component was a compromise I was willing to take.
 
@@ -8,11 +8,11 @@ Initially I intend on using the [jgeisler0303/PIC16F1454_USB2Serial](https://git
 
 The \*uino-328th is intended to operate at 3.3V.  There are two possible clock sources for the ATmega328P, a dedicated resonator or the clock output of the PIC16F1454.
 
-###Important Note
+### Important Note
 
 PCB have been ordered from SeeedStudio FusionPCB service. There is no working sample yet.
 
-###Licensing
+### Licensing
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License, CC BY-SA.
 
@@ -20,9 +20,9 @@ You are free to copy, distribute and transmit the work. You must attribute the w
 
 Please refer to [http://creativecommons.org/licenses/by-sa/3.0/] for the license.
 
-###Credit
+### Credit
 
-The *uino-328th was inspired by:
+The \*uino-328th was inspired by:
 
 - The Frienduino [jgeisler0303/Frienduino](https://github.com/jgeisler0303/Frienduino)
 - The [Innovation Board](http://make.unl.edu/innovation-board/)
